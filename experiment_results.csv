@@ -1,0 +1,17 @@
+exp_id,model_name,use_pca,use_optuna,f1_score,best_params,model_path
+1,logreg,False,False,0.8333333333333334,{},/Users/aryyaan/Desktop/HEART_DISEASE/models/exp_01_logreg_pca0_optuna0.pkl
+2,logreg,False,True,0.821917808219178,"{""C"": 0.007239457855552247, ""solver"": ""liblinear""}",/Users/aryyaan/Desktop/HEART_DISEASE/models/exp_02_logreg_pca0_optuna1.pkl
+3,logreg,True,False,0.8333333333333334,{},/Users/aryyaan/Desktop/HEART_DISEASE/models/exp_03_logreg_pca1_optuna0.pkl
+4,logreg,True,True,0.8311688311688312,"{""C"": 0.003676846391493957, ""solver"": ""lbfgs""}",/Users/aryyaan/Desktop/HEART_DISEASE/models/exp_04_logreg_pca1_optuna1.pkl
+5,rf,False,False,0.8648648648648649,{},/Users/aryyaan/Desktop/HEART_DISEASE/models/exp_05_rf_pca0_optuna0.pkl
+6,rf,False,True,0.8533333333333334,"{""n_estimators"": 530, ""max_depth"": 17, ""min_samples_split"": 5, ""min_samples_leaf"": 6}",/Users/aryyaan/Desktop/HEART_DISEASE/models/exp_06_rf_pca0_optuna1.pkl
+7,rf,True,False,0.8648648648648649,{},/Users/aryyaan/Desktop/HEART_DISEASE/models/exp_07_rf_pca1_optuna0.pkl
+8,rf,True,True,0.8266666666666667,"{""n_estimators"": 358, ""max_depth"": 3, ""min_samples_split"": 20, ""min_samples_leaf"": 3}",/Users/aryyaan/Desktop/HEART_DISEASE/models/exp_08_rf_pca1_optuna1.pkl
+9,svm,False,False,0.8493150684931506,{},/Users/aryyaan/Desktop/HEART_DISEASE/models/exp_09_svm_pca0_optuna0.pkl
+10,svm,False,True,0.8421052631578947,"{""C"": 0.0068119314244443376, ""kernel"": ""linear"", ""gamma"": ""auto""}",/Users/aryyaan/Desktop/HEART_DISEASE/models/exp_10_svm_pca0_optuna1.pkl
+11,svm,True,False,0.8611111111111112,{},/Users/aryyaan/Desktop/HEART_DISEASE/models/exp_11_svm_pca1_optuna0.pkl
+12,svm,True,True,0.8311688311688312,"{""C"": 0.0023775912656274693, ""kernel"": ""linear"", ""gamma"": ""scale""}",/Users/aryyaan/Desktop/HEART_DISEASE/models/exp_12_svm_pca1_optuna1.pkl
+13,gb,False,False,0.8450704225352113,{},/Users/aryyaan/Desktop/HEART_DISEASE/models/exp_13_gb_pca0_optuna0.pkl
+14,gb,False,True,0.8378378378378378,"{""n_estimators"": 229, ""learning_rate"": 0.010685440583540111, ""max_depth"": 2, ""subsample"": 0.6592711297810563}",/Users/aryyaan/Desktop/HEART_DISEASE/models/exp_14_gb_pca0_optuna1.pkl
+15,gb,True,False,0.8450704225352113,{},/Users/aryyaan/Desktop/HEART_DISEASE/models/exp_15_gb_pca1_optuna0.pkl
+16,gb,True,True,0.8051948051948052,"{""n_estimators"": 66, ""learning_rate"": 0.010984539749693763, ""max_depth"": 2, ""subsample"": 0.8991582126966503}",/Users/aryyaan/Desktop/HEART_DISEASE/models/exp_16_gb_pca1_optuna1.pkl
